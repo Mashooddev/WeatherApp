@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+.mainH1{
+    font-family: 'Rock Salt', cursive;
+    color: rgb(226, 243, 235);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mainP{
+    font-family: 'Rock Salt', cursive;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

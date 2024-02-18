@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.loading {
+  font-family: "Lumanosimo", cursive;
+  color: whitesmoke;
+}
+
+.weather-details-box {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+}
+
+.text {
+  font-family: "Roboto Condensed";
+  color: rgb(201, 194, 194) !important;
+}
+
+.text-heading {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 16px;
+  color: white !important;
+}
+
+.text-heading-2 {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(201, 194, 194) !important;
+}
+
+.weather-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .weather-details-container {
+    justify-content: center;
+  }
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.current-weather-location {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-weather-temp {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-weather-details {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.air-conditions {
+  display: flex;
+  flex-direction: column;
+}
+
+.air-condition-details {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.air-condition-wind {
+  display: flex;
+  flex-direction: column;
+}
+
+.humidity-cloud-details {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+}
+
+.forecast-details {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
